@@ -1,0 +1,87 @@
+
+body {
+    background-color: #ededed;
+}
+
+nav{
+    background-color: #fff;
+    padding: 0px;
+}
+
+h3,
+h4,
+h5 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bolder;
+    color: #4aaaa5;
+}
+
+.navbar-brand {
+    background-color: #4aaaa5; 
+    font-family: Georgia, serif;
+    font-size: 19px; 
+    color: #fff; 
+    font-weight: bolder; 
+    padding: 10px;
+}
+.txtwrap{
+    float: left;
+    margin: 10px;
+}
+.content {
+    
+    margin-top: 30px;
+    
+    
+}
+.summary,
+.visualizations
+{
+    background-color: #fff;
+    padding-top: 50px;
+    padding-right: 20px;
+    padding-left: 20px;
+    padding-bottom: 20px;
+}
+.comparison{
+    background-color: #fff;
+    padding-top: 50px;
+    padding-right: 40px;
+    padding-left: 40px;
+    padding-bottom: 20px;
+}
+
+.divider
+{
+    background-color: #ededed;
+    padding: 10px;
+}
+.selected{
+    border: #4aaaa5 2px solid;
+}
+
+
+@media (max-width:991px){
+    nav{
+        background-color: #4aaaa5;
+        padding: 0px;
+    }
+    
+    .content{
+        margin-top: 0px;
+    }
+    .divider,
+    .container-fluid{
+    padding: 0px;    
+    }
+    .collapse{
+        background-color: #fff;
+        padding-left: 10px;
+              
+    }
+    .dropdown-toggle {
+        background-color: #e7e7e7;
+        
+    }   
+    
+}
